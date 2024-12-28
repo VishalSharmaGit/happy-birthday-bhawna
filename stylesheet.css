@@ -1093,6 +1093,20 @@ audio {
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
 }
+
+@media (max-width: 480px) {
+	.balloons {
+		width: 75px;
+		height: 137px;
+		background-size: 75px 137px;
+	}
+	
+	.balloons h2 {
+		font-size: 37px;
+	}
+
+  }
+
 #b1,#b11 {
 	background-image: url('b1.png');
 }
@@ -1113,6 +1127,9 @@ audio {
 }
 #b7,#b77{
 	background-image: url('b7.png');
+}
+#b8,#b88{
+	background-image: url('b8.png');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
@@ -1308,3 +1325,5 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+	
